@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.center {
+    border: 1px solid rgb(0, 47, 128);
+    background-image: linear-gradient( rgb(255, 255, 255) , rgb(107, 175, 253));
+    margin: 2%;
+    width: 95%;
+  }
+  img {
+    float: right;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 7%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 3%;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  
+  li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 45%;
+    
+  }
+h1{
+    font-size: 100%;
+    color: rgb(59, 108, 173);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+}
+.button {
+    background-color: #4CAF50;
+   border-radius: 20px;
+    padding: 2px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .flex-container>div {
+    background-color: rgb(252, 252, 253);
+    color: rgb(12, 12, 12);
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+    height: 300px;
+    border-radius: 5px;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    word-spacing: 2px;
+  }
+  .flex-box {
+    color: rgb(12, 12, 12);
+    width: 810px;
+    margin: 15px;
+    text-align: center;
+    height: 97px;
+    border-radius: 5px;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    word-spacing: 2px;
+    display: inline-flex
+  }
+  .flex-box1 {
+    width: 900%;
+    text-align: center;
+    height: 97px;
+    border-radius: 5px;
+    font-size: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+
